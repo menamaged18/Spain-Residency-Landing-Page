@@ -44,7 +44,7 @@ const BenefitsSection = () => {
   const btnStyle = "bg-yellow-500 text-blue-900 hover:bg-yellow-400 transition font-semibold py-3 px-8 rounded-full hover:from-gray-600 transition-all duration-300 transform hover:scale-105";
 
   return (
-    <section id="benefits-section" className="mb-5 py-16"> 
+    <section id="benefits-section" className="mb-5 py-12 m-4"> 
       <div className="container mx-auto ">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
           What You Get 
