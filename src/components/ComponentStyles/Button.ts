@@ -1,0 +1,1 @@
+export const BtnStyle = "px-6 py-3 rounded-full font-semibold bg-yellow-500 text-blue-900 hover:bg-yellow-400 transition"
