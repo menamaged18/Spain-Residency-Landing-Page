@@ -13,7 +13,7 @@ export default function Home() {
     <div className="flex flex-col h-full ">
       <section id="home" className="relative h-screen w-full text-black">
         <Image
-          src="/barcelona.jpg"
+          src="/Barcelona.jpg"
           alt="Spain Image"
           fill
           priority
