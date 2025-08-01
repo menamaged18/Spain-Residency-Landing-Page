@@ -43,12 +43,12 @@ function Navbar() {
       )}
       <nav
         className={`
-          ${isSticky ? 'fixed top-0 left-0 right-0 rounded-none' : 'relative mt-6 mx-4 rounded-4xl hover:scale-105'}
+          ${isSticky ? 'fixed top-0 left-0 right-0 rounded-none max' : 'relative mt-6 mx-4 rounded-4xl hover:scale-105'}
           bg-gray-900 text-white shadow-sm z-50 transition-all duration-300 ease-in-out
           `}
         style={{ height: navbarHeight }}
       >
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-3 flex justify-between items-center max-w-7xl">
           <Link href="/" className="flex items-center">
             <Image
               src={'/ZiadaLogo.jpg'}

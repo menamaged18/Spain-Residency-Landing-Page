@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 
 function Pricing() {
-    const packages = [
+  const packages = [
     {
       name: 'Essential',
       price: '€5,999',

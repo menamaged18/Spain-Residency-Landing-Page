@@ -4,9 +4,8 @@ const WhyZiada = () => {
   const reasons = [
     'Clear process. No hidden steps, no surprises.',
     'Full file handling: paperwork, insurance, family docs — all included',
-    '100% refund if we do not deliver, 75% if your visa gets rejected',
+    'You get your money back if we don’t finish your file — and 75% back if Spain rejects your residency',
     'You start with 25% only — we support you all the way',
-    'Based in UAE — speak directly with Mr. Mina or our legal team',
   ];
 
   return (

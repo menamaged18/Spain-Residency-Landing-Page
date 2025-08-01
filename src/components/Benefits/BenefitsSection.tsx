@@ -2,42 +2,38 @@ import Link from 'next/link';
 import React from 'react';
 
 const BenefitsSection = () => { 
-  const benefits = [ // Changed the array name to 'benefits'
+  const benefits = [
     {
       title: 'Live in Spain for up to 3 years (renewable)',
-      icon: '🏠', // Added an appropriate icon
+      icon: '🏠',
     },
     {
-      title: 'Travel freely across 26+ EU countries',
-      icon: '🌍', // Added an appropriate icon
+      title: 'Travel freely across 27 EU countries',
+      icon: '🌍',
     },
     {
       title: 'Apply for permanent residency after 5 years',
-      icon: '📜', // Added an appropriate icon
+      icon: '�',
     },
     {
       title: 'Clear path to Spanish citizenship after 10 years',
-      icon: '🇪🇸', // Added an appropriate icon
+      icon: '🇪🇸',
     },
     {
       title: 'Public schools for your kids (no extra fees)',
-      icon: '🏫', // Added an appropriate icon
+      icon: '🏫',
     },
     {
       title: 'Private & public healthcare options',
-      icon: '❤️', // Added an appropriate icon
+      icon: '❤️',
     },
     {
       title: 'Bring your family with you',
-      icon: '👨‍👩‍👧‍👦', // Added an appropriate icon
-    },
-    {
-      title: 'No need to buy property or open a company',
-      icon: '🚫', // Added an appropriate icon
+      icon: '👨‍👩‍👧‍👦',
     },
     {
       title: 'All paperwork, translations & appointments handled by us',
-      icon: '✅', // Added an appropriate icon
+      icon: '✅',
     },
   ];
 
